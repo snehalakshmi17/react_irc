@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    background-image: url(./bgm1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .login-form {
+    width: 80%; /* Adjust the width as needed for responsiveness */
+    max-width: 400px; /* Add a max-width to prevent it from becoming too wide on larger screens */
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%; /* Ensure the form takes the full width of the container */
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 16px;
+    width: 100%; /* Make the input take the full width of its container */
+    box-sizing: border-box; /* Include padding and border in the input's total width */
+  }
+  
+  button {
+    background-color: #4c00ff;
+    color: #ffffff;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  

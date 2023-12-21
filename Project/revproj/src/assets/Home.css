@@ -1,0 +1,9 @@
+body {
+    justify-content: 'center';
+     background: url('bgm2.jpg') ;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+}
